@@ -1,0 +1,101 @@
+
+/***   Barras laterales RRSS y Sesión ***/
+v-center-left-text v-box-opc-left-text
+.v-center-left {
+    /* ubicación */
+  position: fixed;
+  top: 30%;
+  left: 0px;
+}
+.v-center-left-text {
+    /* ubicación */
+  position: fixed;
+  top: 35%;
+  left: 0px;
+}
+.v-center-right-text {
+    /* ubicación */
+  position: fixed;
+  top: 30%;
+  right: 0px;
+}
+.v-box-opc-img {
+    /* div padre */
+    width: 15%;    
+    display: flex;
+  flex-direction: column;
+}
+.v-box-opc-left-text {
+    /* div padre */
+    /*-webkit-transform: rotate(270deg);  /* Chrome, Safari, Opera */
+    /*transform: rotate(270deg);    */
+    background-color: transparent !important;
+    width: 5%;    
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.v-box-opc-right-text {
+    /* div padre */
+    /*
+    -webkit-transform: rotate(-270deg);  /* Chrome, Safari, Opera */
+    /*transform: rotate(-270deg);    */
+    background-color: transparent !important;
+    width: 5%;    
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.v-unit {
+    /*  div hijo */
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 120px;
+}
+.v-unit a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    padding-bottom: 0;
+}
+.v-unit a:hover {
+    color: #ca0086;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid #ca0086;
+    padding-bottom: 0;
+}
+/***   Características ***/
+.height-feature {
+  height: 100px;
+ }
+/***   Formularios   ***/
+.label-contact {
+  display: none;
+}
+
+/***   Footer   ***/
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  font-size: 36px;
+}
+.back-to-top a {
+  color: #000;
+}
+.footer-top {}
+.footer-bottom {}
+
+/***   Visibilidad ***/
+.hidden {
+  visibility: hidden;
+}
+@media (max-width: @screen-xs-max) {
+.hide-responsive {
+    display: none !important;
+}
+}
